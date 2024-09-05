@@ -87,6 +87,8 @@ header img{
     margin-top: 3rem;
     width: 75%;
     text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Third Section Styling*/
@@ -103,6 +105,8 @@ header img{
     text-align: justify;
     margin-top: 3rem;
     width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Pricing Section*/
