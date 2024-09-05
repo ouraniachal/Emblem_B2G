@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+}
+
+.hero{
+    background-image: url("./images/background_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+header{
+    text-align: center;
+}
+
+header img{
+    margin-top: 3rem;
+}
+
+.row img{
+    margin-top:2rem;
+}
+
+.text_section{
+    color: #fff;
+    text-align: center;
+}
+
+.text_section h2{
+    margin-top: 2rem;
+    font-size: 40px;
+}
+
+.text_section h3{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.text_section p{
+    font-size: 20px;
+}
+
+.interested_button{
+   
+    color: #004aad;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.interested_button:hover{
+    color: #004aad;
+}
+
+.ask_call_button{
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #61ce70;
+}
+
+.ask_call_button:hover{
+    background-color: #4ea55a;
+}
+
+.certified_provider{
+    font-size: 16px;
+    font-weight: bold;
+    color: #004aad;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/*Second Section Styling*/
+.second_section{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.second_section h2{
+    font-size: 30px;
+    color: #004aad;
+}
+
+.second_section p{
+    margin-top: 3rem;
+    width: 75%;
+    text-align: justify;
+}
+
+/*Third Section Styling*/
+.third_section{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.third_section h2{
+    color: #004aad;
+    font-size: 26px;
+}
+.third_section p{
+    text-align: justify;
+    margin-top: 3rem;
+    width: 75%;
+}
+
+/*Pricing Section*/
+.pricing_section{
+    background-color: #fafafa;
+    padding-bottom: 3rem;
+    color: #004aad;
+}
+.timokatalogos h2{
+    margin-top: 6rem;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.timokatalogos h4{
+    font-size: 20px;
+}
+
+.price_card{
+    background-color: #e7ebef;
+    margin-top: 2rem;
+    padding: 3rem;
+    border-radius: 20px;
+    
+}
+
+.price_card h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price_card h4{
+    font-size: 20px;
+}
+
+.first_price{
+    font-size: 40px;
+    font-weight: bold;
+}
+.all_pricing{
+    font-size: 20px;
+}
+
+/*Fifth Section*/
+.fifth_section{
+    background-color: #004aad;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+.fifth_section h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    
+    margin-top: 4rem;
+}
+
+.fifth_section img{
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/*Form Section*/
+.form_section{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.form_section h2{
+    margin-top: 8rem;
+    font-size: 41px;
+    font-weight: bold;
+    color: #004aad;
+}
+
+.form_section p{
+    font-size: 20px;
+    margin-top: 1.5rem;
+}
+
+.form_section form{
+    margin-top: 1.5rem;
+}
+
+input[type=text]{
+    background-color: #e8e6ec;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.consent_check{
+    margin-top: 1rem;
+}
+
+.form_button{
+    margin-top: 2rem;
+}
+
+.form_section .container{
+    padding-bottom: 6rem;
+}
+
+.form_section a{
+    color: #000;
+}
+
+#consent_checkbox{
+    border-radius: 0;
+    border-width: 2px;
+}
+
+.form_button{
+    background-color: #7ed957;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form_button:hover{
+    background-color: #65ae46;
+    color: #fff;
+}
