@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+/*First Section Styling*/
 .hero{
     background-image: url("./images/background_img.png");
     background-position: center;
@@ -10,6 +11,7 @@
     position: relative;
     height: 100vh;
 }
+
 header{
     text-align: center;
 }
@@ -42,10 +44,11 @@ header img{
 }
 
 .interested_button{
-   
     color: #004aad;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .interested_button:hover{
@@ -56,8 +59,10 @@ header img{
     margin-top: 1rem;
     color: #fff;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #61ce70;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
 }
 
 .ask_call_button:hover{
@@ -70,6 +75,10 @@ header img{
     color: #004aad;
     text-align: center;
     margin-top: 1rem;
+}
+
+.certified_provider img{
+    width: 10px;
 }
 
 /*Second Section Styling*/
@@ -101,6 +110,7 @@ header img{
     color: #004aad;
     font-size: 26px;
 }
+
 .third_section p{
     text-align: justify;
     margin-top: 3rem;
@@ -130,7 +140,6 @@ header img{
     margin-top: 2rem;
     padding: 3rem;
     border-radius: 20px;
-    
 }
 
 .price_card h3{
@@ -228,3 +237,83 @@ input[type=text]{
     background-color: #65ae46;
     color: #fff;
 }
+
+#employee_count{
+    background-color: #e8e6ec;
+    border-radius: 20px;
+}
+
+.form_button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+}
+
+/*Desktop view*/
+@media (min-width: 768px){
+    .text_section{
+        text-align: left;
+        margin-top: 4rem;
+    }
+
+    .text_section p{
+        margin-bottom: 3rem;
+    }
+
+    .hero .container img{
+        width: 300px;
+    }
+
+    .certified_provider{
+        text-align: left;
+        margin-top: 5rem;
+    }
+
+    /*Second Section*/
+    .second_section{
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+
+    .second_section h2{
+        margin-top: 5rem;
+        text-align: left;
+        padding-left: 5rem;
+    }
+    .second_section img{
+        width: 500px;
+    }
+
+    /*Third Section*/
+    .third_section{
+        padding-top: 7rem;
+        padding-bottom: 7rem;      
+    }
+
+    .third_section h2{
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        width: 75%;
+    }
+
+    .third_section img{
+        width: 500px;
+    }
+
+    /*Fifth Section*/
+    .fifth_section img{
+        width: 700px;
+    }
+
+    /*Form Section*/
+    .form_section .form_col{
+        text-align: left;
+    }
+}
+
+@media (min-width:992px){
+
+}
+
