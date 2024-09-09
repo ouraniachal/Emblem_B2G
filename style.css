@@ -24,6 +24,10 @@ header img{
     margin-top:2rem;
 }
 
+#image_check{
+    margin-top: 0;
+}
+
 .text_section{
     color: #fff;
     text-align: center;
@@ -77,8 +81,9 @@ header img{
     margin-top: 1rem;
 }
 
-.certified_provider img{
-    width: 10px;
+.certified_provider p{
+    display: flex;
+    align-items: center;
 }
 
 /*Second Section Styling*/
@@ -311,9 +316,5 @@ input[type=text]{
     .form_section .form_col{
         text-align: left;
     }
-}
-
-@media (min-width:992px){
-
 }
 
